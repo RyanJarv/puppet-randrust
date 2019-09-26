@@ -1,0 +1,1 @@
+--ignore-paths=./modules/**/*,./spec/fixtures/modules/**/*,--relative

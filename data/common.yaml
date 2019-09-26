@@ -1,0 +1,16 @@
+---
+randrust::config: '/etc/default/randrust'
+randrust::config_epp: ~
+randrust::interface: "0.0.0.0"
+randrust::listen_port: 31531
+randrust::package_ensure: present
+randrust::package_manage: true
+randrust::package_name: [ 'randrust' ]
+randrust::service_enable: true
+randrust::service_ensure: running
+randrust::service_manage: true
+randrust::service_name: randrust
+randrust::service_provider: ~
+randrust::service_hasstatus: true
+randrust::service_hasrestart: true
+
