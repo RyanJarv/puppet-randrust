@@ -1,4 +1,5 @@
 # randrust
+[![Build Status](https://travis-ci.org/RyanJarv/puppet-randrust.svg?branch=master)](https://travis-ci.org/RyanJarv/puppet-randrust)
 
 #### Table of Contents
 
