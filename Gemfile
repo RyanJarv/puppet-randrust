@@ -42,6 +42,9 @@ group :development do
   gem 'rake'
   gem 'serverspec'
   gem 'test-kitchen'
+
+  # Reference
+  gem 'puppet-strings'
 end
 
 puppet_version = ENV['PUPPET_GEM_VERSION']

@@ -1,9 +1,5 @@
-# @summary A short summary of the purpose of this class
-#   This class handles the randrust package.
-#
-# @example
-#   include randrust::install
-#
+# @api private
+# @summary This class handles the randrust package.
 class randrust::install {
   if $randrust::package_manage {
     $distro = downcase($facts['os']['name'])

@@ -1,6 +1,12 @@
-# randrust
+# @summary Installs, configures and run's randrust.
+# 
+# @example
+#   include randrust
 #
-# Main class, includes all other classes.
+# @example
+#   $randrust::listen_port = 8080
+#   $randrust::package_manage = false
+#   include randrust
 #
 # @param package_name
 #   Specifies the randrust package to manage. Default value: ['randrust'].
@@ -16,9 +22,11 @@
 #   Specifies an absolute or relative file path to an EPP template for the config file. Example value: 'randrust/randrust.epp'.
 #
 # @param listen_port
-#   Specifies the listen port for randrust to serve traffic from
+#   Specifies the listen port for randrust to serve traffic from.
 #
 # @param interface
+#   NOTE: Only the default is supported currently
+#
 #   Specifies the interface to listen on. Default: '0.0.0.0'.
 #
 # @param package_ensure
@@ -35,9 +43,13 @@
 #   Whether the randrust service should be running. Default value: 'running'.
 #
 # @param service_provider
+#   NOTE: Only the default is supported currently.
+#
 #   Which service provider to use for randrust. Default value: 'undef'.
 #
 # @param service_name
+#   NOTE: Only the default is suppored currently.
+#
 #   The name of the randrust service to manage.
 #
 class randrust (

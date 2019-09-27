@@ -2,9 +2,11 @@
   "name": "jarv-randrust",
   "version": "0.1.0",
   "author": "Ryan Gerstenkorn",
-  "summary": "",
+  "summary": "Installs and configures the randrust service",
   "license": "Apache-2.0",
-  "source": "",
+  "source": "https://github.com/RyanJarv/puppet-randrust",
+  "project_page": "https://github.com/RyanJarv/puppet-randrust",
+  "issues_url": "https://github.com/RyanJarv/puppet-randrust/issues",
   "dependencies": [
     {
       "name": "puppetlabs/stdlib",

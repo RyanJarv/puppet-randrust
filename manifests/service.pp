@@ -1,9 +1,5 @@
-# @summary
-#   This class handles the randrust service.
-#
-# @example
-#   include randrust::service
-#
+# @api private
+# @summary This class handles the randrust service.
 class randrust::service (
 ) {
 

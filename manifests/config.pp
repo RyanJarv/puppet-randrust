@@ -1,9 +1,5 @@
-# @summary
-#   This class handles the configuration file.
-#
-# @example
-#   include randrust::config
-#
+# @api private
+# @summary This class handles the configuration file.
 class randrust::config (
 ) {
   # If config_epp is defined use that, otherwise use our default template.
