@@ -111,6 +111,11 @@ This converges and runs [serverspec](https://github.com/RyanJarv/puppet-randrust
 
 Initial setup is slower then unit tests but subsequent runs are about the same.
 
+Before any kitchen commands run make sure to run the following at least once.
+```
+bundle exec librarian-puppet install
+```
+
 
 #### List all nodes
 ```
@@ -124,6 +129,7 @@ base-debian-randrust    Vagrant  PuppetApply  Busser    Sftp       <Not Created>
 #### Converge and run serverspec's against a specific node
 This can be rerun as you make changes untill it succeeds.
 ```
+bundle exec librarian-puppet install
 bundle exec kitchen verify base-ubuntu18-randrust
 -----> Starting Kitchen (v2.3.3)
 -----> Creating <base-ubuntu18-randrust>...
@@ -139,6 +145,7 @@ Once your done use `bundle exec kitchen destroy` to shutdown the VM's.
 Will run the destroy/create/test/destroy process for all machines. Run this at least once before you make a PR.
 
 ```
+bundle exec librarian-puppet install
 bundle exec kitchen test
 ```
 
