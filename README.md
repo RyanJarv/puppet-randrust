@@ -60,7 +60,6 @@ See [REFERENCE](./REFERENCE.md)
 The following parameters or are not usefull in practice currently. This will
 change if/when the randrust package adds support for them.
 
-* interface
 * service_provider
 * service_name
 

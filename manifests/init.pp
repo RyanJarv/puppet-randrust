@@ -25,8 +25,6 @@
 #   Specifies the listen port for randrust to serve traffic from.
 #
 # @param interface
-#   NOTE: Only the default is supported currently
-#
 #   Specifies the interface to listen on. Default: '0.0.0.0'.
 #
 # @param package_ensure

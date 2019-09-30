@@ -76,8 +76,6 @@ Specifies the listen port for randrust to serve traffic from.
 
 Data type: `Optional[String]`
 
-NOTE: Only the default is supported currently
-
 Specifies the interface to listen on. Default: '0.0.0.0'.
 
 ##### `package_ensure`
