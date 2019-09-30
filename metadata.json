@@ -1,6 +1,6 @@
 {
   "name": "jarv-randrust",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Ryan Gerstenkorn",
   "summary": "Installs and configures the randrust service",
   "license": "Apache-2.0",
