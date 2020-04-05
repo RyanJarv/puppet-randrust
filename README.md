@@ -1,3 +1,5 @@
+This is the puppet side of https://github.com/RyanJarv/randrust. Same as that this was just an interview related project that I spent far too much time on, at best it might serve as a decent example of how to operationalize a simple service.
+
 # randrust
 [![Build Status](https://travis-ci.org/RyanJarv/puppet-randrust.svg?branch=master)](https://travis-ci.org/RyanJarv/puppet-randrust)
 
